@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 function Nav() {
   return (
-    <div className=" shadow-2xl  h-[100vh] w-1/6 z-20  bg-[white]  ">
+    <div className=" shadow-2xl box-border  w-1/6 z-20  bg-[white]  ">
       <div className=" border-b-2 p-6 flex flex-col gap-10 ">
         <h3 className=" font-medium text-[#2FA9F3] text-xl">Grow Lease</h3>
         <div className="flex">

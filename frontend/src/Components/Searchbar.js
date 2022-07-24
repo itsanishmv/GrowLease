@@ -2,7 +2,7 @@ import React from "react";
 import {} from "@fortawesome/react-fontawesome";
 function Searchbar() {
   return (
-    <div className=" h-16 bg-[white] flex  items-center justify-between px-10 ">
+    <div className=" h-16 bg-[white] fixed flex w-5/6 items-center justify-between px-10 ">
       <div>
         <input
           className=" outline-none w-80"

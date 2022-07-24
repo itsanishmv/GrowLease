@@ -5,10 +5,10 @@ import Deals from "./Pages/Deals";
 import Searchbar from "./Components/Searchbar";
 function App() {
   return (
-    <div className="b-6 flex bg-[#F5F6F8] ">
+    <div className=" flex  h-[100vh] bg-[#F5F6F8] ">
       <Nav />
 
-      <div className="flex flex-col w-5/6 h-[100vh]">
+      <div className="flex flex-col w-5/6 ">
         <Searchbar />
         <Routes>
           <Route path="/deals" element={<Deals />} />
